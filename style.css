@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+body{
+background-color: hsl(327, 47%, 84%);
+}
+/* .navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+}
+.logo{
+    /* background-image: url(images/amazon_logo.png/); 
+    background-size: cover;
+    height: 5px;
+    width: 10%;;
+}
+.nav_logo{
+    height: 100;
+    width: 100px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border:2px solid white;
+} */
+.topnav{
+ height: 60px;
+ background-color: #131921;
+ display:flex;
+ align-items: center;
+ color: white;
+ justify-content: space-evenly;
+ 
+}
+.nav-logo border{
+    width: 100px;
+    padding-top: 4px;
+}
+.logo img{
+    width: 100px;
+}
+
+.border{
+    border: 1px solid transparent;
+    padding: 0;
+}
+.border:hover{
+    border: 2px solid white;
+     border-radius: 2px;
+}
+
+/* .......location box....... */
+.nav-location{
+   
+   
+    color: white;
+}
+.location-icon{
+    display: flex;
+}
+.location-first{
+    margin-left: 10px;
+    color: #cccc;
+    font-size: 15px;
+}
+.location-second{
+    font-size: 17px;
+}
+.location-icon i{
+    margin-right: 1px;
+}
+/* ....search box..... */
+.nav-search{
+    display: flex;
+    /* align-items: center; */
+    height: 40px;
+    margin-left: 10px;
+    border:2px solid transparent;
+    
+    /* width: 6000px; */
+}
+.nav-search:hover{
+    border :2px solid  rgba(255, 166, 0, 0.847);
+    border-radius: 6px;
+}
+
+.searchBar{
+    width: 795.11px;
+   outline: none;
+}
+.categories{
+    width: 52px;
+    font-size: 1vw;
+    text-align: center;
+    background-color: #fffffff5;
+
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.search-icon{
+    width: 40px;
+    height: 40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 166, 0, 0.847);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+   
+}
+/* ........ select language........ */
+.nav-language{
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    
+    
+}
+
+
+.nav-language img{
+    width: 20px;
+}
+.language{
+    background: transparent;
+    color:white;
+    width: 42px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+
+   
+}
+/*.......sigh in.......  */
+.nav-signin{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.first-signin{
+    color: #cccc;
+    font-size: 15px;
+
+}
+.second-signin{
+    font-size: 17px;
+    font-weight: 200;
+}
+/* .....cart..... */
+.nav-cart{
+    display: flex;
+    align-items: first baseline;
+    padding: 20px;
+   
+}
+.nav-cart i{
+    font-size: 35px;
+}
+/* .----------------------------------------------------------------------------- */
+.bottom-nav{
+    height: 39px;
+    background-color: #232f3e;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+.bnav-left{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    border: 3px solid transparent;
+   
+}
+.options a{
+    padding: 8px;
+    color: white;
+    border: 3px solid transparent;
+   
+    
+    
+
+}
+.barall{
+    display: flex;
+    padding: 8px;
+}
+.bnav-right img{
+    height: 39px;
+    
+}
+
